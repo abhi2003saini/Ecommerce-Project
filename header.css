@@ -1,0 +1,33 @@
+.main-container{
+    width: 100%;
+    height: 100px;
+    background-color: orange;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5rem;
+    position: sticky;
+    top: 0;
+}
+.right ul{
+    list-style-type: none;
+    display: flex;
+    gap: 1.5rem;
+}
+.nav-item{
+    cursor: pointer;
+    font-size: 1.25rem;
+    padding: 0.5rem 1rem;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.rightnav ul {
+    display: flex;
+    gap:20px;
+    padding-right: 70px;
+    cursor: pointer;
+}
+.count{
+    padding: 0.5rem 0.7rem;
+    
+}

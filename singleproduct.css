@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+
+.container .row img{
+    border: 1px solid black;
+    box-sizing: border-box;
+    padding-left: 10px;
+    margin-left: 20px;
+    margin-top: 20px;
+    width: 350px;
+    height: 350px;
+  
+}
+.container .row  {
+ display: flex;
+ gap: 70px;
+justify-content: center;
+align-items: center;
+}
+/* .btn{
+    width: 200px;
+    height: 50px;
+    box-sizing: border-box;
+    padding-left: 10px;
+    margin-left: 5px;
+    margin-top: 20px;
+    background-color:rgb(100, 100, 100);
+    color: white;
+}
+.btn:hover{
+    background-color: brown;
+} */
+.addincart{
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    background-color: orange;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    display: inline-flex;
+    text-align: center;
+    padding-left: 10px;
+    padding-top: 10px;
+    margin-left: 100px;
+    margin-top: 20px;
+  
+}
+.addincart:hover{
+    background-color: #61dafb;
+}

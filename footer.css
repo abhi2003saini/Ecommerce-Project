@@ -1,0 +1,54 @@
+.footer-container{
+    width: 100%;
+    height: 150px;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+}
+.middle-footer ul{
+    padding: 0;
+    display: flex;
+    justify-content: center;
+
+}
+.middle-footer li{
+    margin: 0 15px;
+}
+.middle-footer a{
+    text-decoration: none;
+    color: rgb(245, 239, 239);
+    transition: color 0.3s;
+    justify-content: center;
+    align-items: center;
+}
+
+.middle-footer a:hover{
+    color: #e35353;
+}
+
+.right-footer {
+    margin-left: auto; /* Push the right-footer to the right */
+    padding-right: 20px;
+    padding-left: 1100px;
+    align-items: center;
+    justify-content: center;
+    
+
+  }
+  
+  .icon{
+    display: flex;
+    gap: 15px; /* Adjust spacing between icons */
+
+  }
+ 
+  
+  .icon a {
+    color: white;
+    text-decoration: none;
+    font-size: 24px; /* Adjust icon size if needed */
+   
+  }
+  .icon h3{
+    padding-bottom: 100px;
+  }
